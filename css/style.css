@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  width: 1500px;
+  background-color: lightyellow;
+  display: flex;
+}
+main aside {
+  width: 750px;
+  background-color: lightblue;
+}
+main section {
+  width: 750px;
+  background-color: gray;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-7 {
+  width: 70%;
+}
+
+.col-8 {
+  width: 80%;
+}
+
+.col-9 {
+  width: 90%;
+}
+
+.col-10 {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+header i {
+  font-size: 3rem;
+  color: gray;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  color: darkcyan;
+}
+header nav ul li:hover {
+  color: tomato;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+footer .color-instagram {
+  color: lime;
+}
+footer .color-linkedin {
+  color: blue;
+}
+footer .color-mail {
+  color: red;
+}
+footer p {
+  background-color: lime;
+}
+
+.recibidos, .enviados {
+  background-color: pink;
+  color: whitesmoke;
+  text-align: start;
+  padding: 10px;
+}
+
+.enviados {
+  background-color: tomato;
+  text-align: end;
+}
+
+/*# sourceMappingURL=style.css.map */

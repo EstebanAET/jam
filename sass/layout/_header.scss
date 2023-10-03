@@ -1,0 +1,35 @@
+$isOnLine: sindefinir;
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+
+    i{
+        font-size: 3rem;
+        @if ($isOnLine == true){
+            color: limegreen;
+
+        }
+        @else if($isOnLine == false){
+            color: firebrick;
+        }
+        @else{
+            color: gray;
+        }
+    }
+
+    nav{
+        ul{
+            list-style: none;
+            li{
+                color: darkcyan;
+
+                &:hover{
+                    color: tomato;
+                }
+            }
+        }
+    }
+}
+
